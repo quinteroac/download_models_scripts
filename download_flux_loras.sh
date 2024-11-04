@@ -15,7 +15,7 @@ CIVITAI_API_KEY=$1
 # Cada modelo es un arreglo con los siguientes campos: nombre, url, tipo de sitio, tipo de modelo
 modelos=(
     ##Flux Dev Complete
-    "flux_dev.safetensors|https://civitai.com/api/download/models/691639?type=Model&format=SafeTensor&size=full&fp=fp32|civitai|checkpoint" 
+    "flux_dev.safetensors|https://huggingface.co/Comfy-Org/flux1-dev/resolve/main/flux1-dev-fp8.safetensors|huggingface|checkpoint" 
     ## Midjourney V6.1 meets FLUX 🖼️ [+SDXL] Trigger: aidmaMJ6.1, Strength: 0.5  DEV
     "flux_midjourney_lora.safetensors|https://civitai.com/api/download/models/925023?type=Model&format=SafeTensor|civitai|lora"
     ##Pony NSFW Style [FLUX] Trigger: aidmansfwunlockfluxponystyle 
